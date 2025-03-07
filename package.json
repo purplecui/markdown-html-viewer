@@ -1,0 +1,11 @@
+{
+  "name": "editor_md",
+  "version": "1.0.0",
+  "description": "markdown editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "purple",
+  "license": "ISC"
+}
