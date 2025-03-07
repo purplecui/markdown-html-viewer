@@ -3,7 +3,7 @@ window.onload = () => {
   var pad = document.getElementById("pad");
   var markdownArea = document.getElementById("markdown");
 
-  var convertTextAreaToMarkdown = function () {
+  var convertTextAreaToMarkdown = async () => {
     var markdownText = pad.value;
     let html = converter.makeHtml(markdownText);
     markdownArea.innerHTML = html;
